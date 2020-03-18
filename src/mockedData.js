@@ -13,4 +13,16 @@ export const columnsFromBackend = {
     name: "Requested",
     items: itemsFromBackend
   },
+  [uuid()]: {
+    name: "To do",
+    items: []
+  },
+  [uuid()]: {
+    name: "In Progress",
+    items: []
+  },
+  [uuid()]: {
+    name: "Done",
+    items: []
+  }
 };
