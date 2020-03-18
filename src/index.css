@@ -19,3 +19,7 @@ body {
   align-items: center;
   margin: 8px;
 }
+
+.select {
+  margin-right: 20px;
+}
